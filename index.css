@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ 
+    font-size: 1.5em;
+    color: beige;
+}
+p{ 
+    font-size: 1.5em;
+}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+
+
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: rgb(0, 180, 165);
+}
+
+button:hover{
+    background-color: rgb(1, 97, 89);
+}
+
+.color-acento{ color: rgb(13, 131, 105);}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+header .logo{
+    margin: 0;
+    padding: 24px 30px; 
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header a:hover{
+    color: rgb(211, 0, 11);
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images/hero_fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+
+#Quienessomos{
+    text-align: center;
+    padding: 200px 12px;
+    justify-content: center
+    color
+}
+
+#Quienessomos .container{
+    text-align: center;
+    padding: 100px 12px;
+    justify-content: center;
+}
+
+#Quienessomos .SomosConcrec-er{
+    text-align: center;
+    justify-content: center;
+    color: blue;
+}
+#Productos{
+    background-color: rgb(48, 48, 48);
+    color: beige;
+    margin: 0%;
+    padding: 100px 12px;
+}
+
+#Productos .container{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 10px;
+}
+
+#Productos p{
+    display: none;
+}
+
+#Productos h2{
+    margin-top: 0;
+}
+
+#Productos .container .carta{
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 80px;
+    margin: 12px;
+    
+}
+
+.cemento01{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images/capturas/cropped/front-end-cropped1.png")
+}
+
+.cemento02{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images/capturas/cropped/front-end-cropped2.png")
+}
+
+.cemento03{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images/capturas/cropped/front-end-cropped3.png")
+}
+
+#Tienda{
+    padding: 100px 12px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images/fondos/fondo02.png"
+    )
+}
+
+#Tienda .container{
+    background-color: rgb(3, 153, 53);
+    color: beige;
+    margin: 15%;
+    padding: 50px 12px;
+    border-radius: 10px;
+}
+#Tienda h2{
+    text-align: center;
+}
